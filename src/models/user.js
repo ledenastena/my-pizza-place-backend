@@ -28,9 +28,9 @@ const userSchema = new mongoose.Schema({
   },
   user_type_id: {
     type: mongoose.Schema.Types.ObjectId,
-    default: '5f5c58d2d7312804fc3627a3',
+    default: '5f7eeef1442e51227c8a8dc3',
     ref: 'User_type',
-    set: value => '5f5c58d2d7312804fc3627a3'
+    set: value => '5f7eeef1442e51227c8a8dc3'
   },
   tokens: [{
     token: {
